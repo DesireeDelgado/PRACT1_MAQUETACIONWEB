@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+img{
+    max-width: 100%;
+
+/*CSS página de inicio*/
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color:black;
+    color:whitesmoke;
+    font-family: "Press Start 2P";
+    
+}
+#logo {
+    width: 15%;
+    padding: 5px;
+    marging: auto;
+}
+nav{
+    width: 80%;
+    margin: 0 auto;   
+}
+nav>ul {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    list-style: none;
+
+}
+li a{
+    list-style: none;
+    text-decoration: none;
+    color:white;
+}
+section#imagen_inicio{
+background:url("./imagenes/fondo_inicio.jpg");
+background-size: cover;
+display:flex;
+height: 90vh;
+background-position: bottom center;
+justify-content: center;
+align-items: center;
+}
+section#imagen_inicio > h1 {
+    font-family: "Press Start 2P";
+    color:rgba(245, 245, 245, 0.801);   
+}
+
+#sinopsis{
+    background: url(./imagenes/gifayos.gif);
+    background-size: cover;
+    color:white;
+    display: flex ;   
+      
+}
+#sinopsis>div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5%;
+    height: 40vh;
+}
+h2, h3{
+    font-family: "Press Start 2P";    
+}
+/*#sinopsis div */p{
+    margin-top:10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:large;
+}
+#lugares{
+   background-color: rgb(133, 10, 10);
+   color: white;
+}
+#lugares>h2{
+    display: flex;
+    justify-content: center;
+    padding: 2%;   
+}
+#lugares> div{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.lugares{
+    background-color: black;
+    width:45%;
+    margin: 8px 30px 40px 30px;
+    border: 1px solid black;
+    border-radius: 24px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lugares>img{
+width: 70%; 
+height: 40vh;  
+}
+.lugares>h3{
+    margin-top: 7px;
+}
+footer{
+    background-color: black;
+    color: white; 
+    
+}
+footer>div{
+    
+    display:flex;
+    justify-content: center;
+}
+footer > div img {
+    width: 40px;
+    margin: 20px;
+}
+footer > p {
+    text-align: center;
+    font-size:12px;
+}
