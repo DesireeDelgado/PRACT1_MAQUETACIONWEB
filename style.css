@@ -12,10 +12,13 @@ img{
 header{
     position: sticky;
     top: 0;
+    z-index: 99;
     background-color:black;
     color:whitesmoke;
-    font-family: "Press Start 2P";
-    
+    font-family: "Press Start 2P"; 
+}
+body{
+    background-color: black;
 }
 #logo {
     width: 15%;
@@ -169,3 +172,27 @@ justify-content: center;
     width: 40%;
     filter: drop-shadow(1px 1px 20px white);
 }
+/*CSS página de teorías*/
+#img5{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+}
+#img5 div> img{
+   padding-left: 10%;
+}
+#teorias_normales{
+background-color: black;
+margin-top: 5%;
+display:flex;
+flex-direction: column;
+justify-content: center;
+}
+#teorias_normales> div{
+    border: 3px solid white;
+    border-radius: 40px;
+    padding: 20px;
+    margin: 20px 15px;
+}
+
+
