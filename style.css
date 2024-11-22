@@ -143,18 +143,18 @@ justify-content: center;
 #personajes>h1 {
     padding-top: 10%;
 }
-#niños{
+#niños, #adolescentes, #adultos, #bonus{
  background-color: black;   
  display:flex;
  flex-wrap: wrap;
 }
-#niños> h2{
+#niños > h2, #adolescentes > h2, #adultos> h2, #bonus > h2{
     display: flex;
     justify-content: center;
     padding: 2%;
     width: 100%;
 }
-#niños>div{
+#niños>div, #adolescentes>div, #adultos > div, #bonus > div{
     background-color: black;
     display: flex;
     justify-content: center;
@@ -165,10 +165,7 @@ justify-content: center;
     margin: 8px 20px 30px 20px;
     box-shadow:0 0 25px rgb(189, 1, 1);
 }
-#niños div>img{
+#niños div > img, #adolescentes div > img, #adultos div> img, #bonus div > img{
     width: 40%;
     filter: drop-shadow(1px 1px 20px white);
-}
-#adolescentes{
-    background-color: black;
 }
