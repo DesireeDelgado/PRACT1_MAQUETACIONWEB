@@ -181,18 +181,47 @@ justify-content: center;
 #img5 div> img{
    padding-left: 10%;
 }
-#teorias_normales{
+#teorias_normales, #teorias_random{
 background-color: black;
-margin-top: 5%;
+margin-top: 2%;
 display:flex;
 flex-direction: column;
-justify-content: center;
+align-items: center;
 }
-#teorias_normales> div{
+#teorias_normales > div, #teorias_random > div{
     border: 3px solid white;
     border-radius: 40px;
     padding: 20px;
-    margin: 20px 15px;
+    margin: 10px 5px;
+    box-shadow:0 0 25px rgb(189, 1, 1);
 }
-
-
+hr{
+    margin-bottom: 30px;
+    padding-bottom:5px;
+    box-shadow:0 0 25px rgb(189, 1, 1);
+    border: 2px solid red;
+    width: 90%;
+}
+.teoria {
+    margin:4%;
+    filter: drop-shadow(5px 4px 20px red);
+}
+#input form> div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 2%;
+}
+form div>input, form div >textarea{
+    box-shadow:0 0 25px rgb(189, 1, 1);
+    border-radius: 5px;
+    margin-right: 2%;
+}
+.boton{
+   width: 10vw;
+   border-radius: 20px;
+}
+.boton:hover {
+    background-color: rgb(189, 1, 1);  
+}
