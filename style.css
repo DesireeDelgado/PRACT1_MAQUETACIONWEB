@@ -269,4 +269,49 @@ form div>input, form div >textarea{
     width: 18vw;
     height: 40vh;    
 }
- 
+ /*CSS página de temporadas*/
+ #temporadas{
+    text-align: center;
+ }
+ .slider {
+  margin: 100px 0 0 300px;
+  width: 70%;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+ }
+ .slider img {
+ width: 10%;
+ height: 100%;
+ object-fit: cover;
+ border-radius: 10px;
+ border: 2px solid rgb(189, 1, 1);
+ transition: all ease-in-out 0.5s;
+}
+ .slider img:hover{
+  width: 60%;
+}
+#t1, #t2, #t3, #t5{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    text-align: center;
+}
+#t1 h2, #t2 h2, #t3 h2, #t5 h2{
+    margin-bottom: 1%;
+}
+#t1 div, #t2 div, #t3 div{
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+margin-top: 1%;
+}
+#t1 div article, #t2 div article, #t3 div article{
+    width: 30%;
+    border: 2px solid rgba(189, 1, 1, 0.568);
+    box-shadow:0 0 15px white;
+    border-radius: 20px;
+    padding:20px;
+    margin: 20px 0 0 20px;
+}
