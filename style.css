@@ -270,8 +270,8 @@ form div>input, form div >textarea{
     height: 40vh;    
 }
  /*CSS página de temporadas*/
- #temporadas{
-    text-align: center;
+ #temporadas h1{
+   color:aqua;
  }
  .slider {
   margin: 100px 0 0 300px;
@@ -291,23 +291,23 @@ form div>input, form div >textarea{
  .slider img:hover{
   width: 60%;
 }
-#t1, #t2, #t3, #t5{
+#t1, #t2, #t3,#t4, #t5{
     display: flex;
     flex-direction: column;
     margin-top: 7%;
     text-align: center;
 }
-#t1 h2, #t2 h2, #t3 h2, #t5 h2{
+#t1 h2, #t2 h2, #t3 h2, #t4 h2, #t5 h2{
     margin-bottom: 1%;
 }
-#t1 div, #t2 div, #t3 div{
+#t1 div, #t2 div, #t3 div, #t4 div{
 display: flex;
 flex-direction: row;
 justify-content: center;
 flex-wrap: wrap;
 margin-top: 1%;
 }
-#t1 div article, #t2 div article, #t3 div article{
+#t1 div article, #t2 div article, #t3 div article, #t4 div article{
     width: 30%;
     border: 2px solid rgba(189, 1, 1, 0.568);
     box-shadow:0 0 15px white;
@@ -315,3 +315,75 @@ margin-top: 1%;
     padding:20px;
     margin: 20px 0 0 20px;
 }
+#t5 p{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7%;
+    text-align: center;
+    border: 2px solid rgba(189, 1, 1, 0.568);
+    box-shadow:0 0 15px white;
+    border-radius: 20px;
+    padding:20px;
+    margin: 20px 0 0 20px;
+}
+#t5 p a {
+ color: white;
+text-decoration: none;
+border: 2px solid white;
+border-radius: 20px;
+width: 80px;
+margin: auto;
+margin-top: 10px;
+padding:2px;
+box-shadow:0 0 10px white;
+}
+ #t5{
+    margin-bottom: 40px;
+ }   
+/*CSS página de curiosidades*/
+ #iniciocuriosidades{
+  background: url(./imagenes/fondo_curiosidades.png);
+  background-size: cover ;
+  height: 90vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+ }
+ #iniciocuriosidades div{
+    border:2px solid rgba(0, 0, 0, 0.274);
+    background-color: rgba(0, 0, 0, 0.377);
+    border-radius: 10px;
+    padding: 20px;
+    width: 55%;
+ }
+ #serie{
+    display:flex;
+    flex-direction: column;
+ }
+ #serie h2{
+    padding: 20px;
+    text-align: center;
+ }
+ #serie div{
+    border:2px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    width: 90%;
+    margin: auto; 
+    display:flex; 
+    
+ }
+ #serie div>div {
+text-align: center;
+flex-direction: column;
+width: 100%;
+border: 0px;
+
+ }
+ #serie div img {
+    height: 100%;
+    width: 30%;
+    border-radius: 20px;
+ }
