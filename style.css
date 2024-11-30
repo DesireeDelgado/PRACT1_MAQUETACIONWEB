@@ -22,8 +22,7 @@ body{
 }
 #logo {
     width: 15%;
-    padding: 5px;
-    marging: auto;
+    padding: 5px;  
 }
 nav{
     width: 80%;
@@ -34,7 +33,6 @@ nav>ul {
     justify-content:space-evenly;
     align-items: center;
     list-style: none;
-
 }
 li a{
     list-style: none;
@@ -58,13 +56,11 @@ section#imagen_inicio > h1 {
     font-family: "Press Start 2P";
     color:rgba(245, 245, 245, 0.801);   
 }
-
 #sinopsis{
     background: url(./imagenes/gifayos.gif);
     background-size: cover;
     color:white;
-    display: flex ;   
-      
+    display: flex ;    
 }
 #sinopsis>div{
     display: flex;
@@ -90,7 +86,7 @@ p{
 #lugares>h2{
     display: flex;
     justify-content: center;
-    padding: 2%;   
+    padding: 2%; 
 }
 #lugares> div{
   display: flex;
@@ -108,21 +104,21 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow:0 0 25px black;
 }
 .lugares>img{
 width: 70%; 
 height: 40vh;  
+border-radius: 15px;
 }
 .lugares>h3{
     margin-top: 7px;
 }
 footer{
     background-color: black;
-    color: white; 
-    
+    color: white;   
 }
-footer>div{
-    
+footer>div{  
     display:flex;
     justify-content: center;
 }
@@ -141,7 +137,6 @@ background-size: cover;
 height: 90vh;
 display:flex;
 justify-content: center;
-/*buscar como hace un degradado */
 }
 #personajes>h1 {
     padding-top: 10%;
@@ -233,7 +228,7 @@ form div>input, form div >textarea{
      justify-content: center;
      align-items: center;
      flex-direction: column;
- }
+}
  #merchanropa h1, #merchanropa h2 {
     margin: 20px 0px;
 }
@@ -246,24 +241,23 @@ form div>input, form div >textarea{
     align-items: center;
     width: 70%;
     border: 2px solid white;
-    border-radius: 15px;
-    
- }
+    border-radius: 15px; 
+}
  #merchanropa div > div, #tazas div > div, #funkos div > div{
     padding:10px;
      width: 50%;                
      text-align: center;         
-  }
+}
  #merchanropa div div a> img{
      border-radius: 10px;
      width: 20vw;
      height: 40vh;    
- }
+}
  #tazas h2, #funkos h2{
     width: 100%;
     margin: 20px 0px;
     text-align: center;
- }
+}
  #funkos div div a > img, #tazas div div a > img{
     border-radius: 10px;
     width: 18vw;
@@ -271,15 +265,15 @@ form div>input, form div >textarea{
 }
  /*CSS página de temporadas*/
  #temporadas h1{
-   color:aqua;
- }
- .slider {
+   text-align: center;
+}
+.slider {
   margin: 100px 0 0 300px;
   width: 70%;
   height: 40rem;
   display: flex;
   justify-content: center;
- }
+}
  .slider img {
  width: 10%;
  height: 100%;
@@ -339,7 +333,7 @@ box-shadow:0 0 10px white;
 }
  #t5{
     margin-bottom: 40px;
- }   
+}   
 /*CSS página de curiosidades*/
  #iniciocuriosidades{
   background: url(./imagenes/fondo_curiosidades.png);
@@ -350,40 +344,43 @@ box-shadow:0 0 10px white;
   justify-content: center;
   align-items: center;
   text-align: center;
- }
+}
  #iniciocuriosidades div{
     border:2px solid rgba(0, 0, 0, 0.274);
     background-color: rgba(0, 0, 0, 0.377);
     border-radius: 10px;
     padding: 20px;
     width: 55%;
- }
- #serie{
+}
+ #serie, #rodaje, #actoreserie{
     display:flex;
     flex-direction: column;
- }
- #serie h2{
+}
+ #serie h2, #rodaje h2, #actoreserie h2{
     padding: 20px;
     text-align: center;
- }
- #serie div{
+    margin:40px;
+}
+ #serie div, #rodaje div, #actoreserie div{
     border:2px solid white;
     border-radius: 20px;
     padding: 8px;
     width: 90%;
-    margin: auto; 
+    margin:auto;
     display:flex; 
-    
- }
- #serie div>div {
-text-align: center;
-flex-direction: column;
-width: 100%;
-border: 0px;
+    margin-top: 20px;
 
  }
- #serie div img {
+ #serie div>div , #rodaje div>div, #actoreserie div>div{
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: none;
+  margin: auto;
+}
+#serie div img, #rodaje div img, #actoreserie div img{
     height: 100%;
     width: 30%;
     border-radius: 20px;
- }
+}
